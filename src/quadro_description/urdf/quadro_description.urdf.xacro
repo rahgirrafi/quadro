@@ -21,7 +21,7 @@
         <visual name="base_body_visual">
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
             <geometry>
-                <mesh filename="/media/rahgirrafi/Technical/Github/ws_qurdo/src/quadro_description/urdf/meshes/base_body.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="$(find quadro_description)/urdf/meshes/base_body.stl" scale="0.001 0.001 0.001" />
             </geometry>
             <material name="yellow">
                 <color rgba="0.8 0.8 0.0 1.0" />
@@ -31,7 +31,7 @@
         <collision name="base_body_collision">
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
             <geometry>
-                <mesh filename="/media/rahgirrafi/Technical/Github/ws_qurdo/src/quadro_description/urdf/meshes/base_body.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="$(find quadro_description)/urdf/meshes/base_body.stl" scale="0.001 0.001 0.001" />
             </geometry>
             
         </collision>
@@ -46,7 +46,7 @@
         <visual name="actuator_rear_right_visual">
             <origin xyz="-4.263256414560601e-16 -3.1974423109204507e-16 0.23999999999999994" rpy="3.1415926535897887 5.3672300325485344e-17 3.141592653589793" />
             <geometry>
-                <mesh filename="/media/rahgirrafi/Technical/Github/ws_qurdo/src/quadro_description/urdf/meshes/actuator_rear_right.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="$(find quadro_description)/urdf/meshes/actuator_rear_right.stl" scale="0.001 0.001 0.001" />
             </geometry>
             <material name="black">
                 <color rgba="0.0 0.0 0.0 1.0" />
@@ -55,7 +55,7 @@
         <collision name="actuator_rear_right_collision">
             <origin xyz="-4.263256414560601e-16 -3.1974423109204507e-16 0.23999999999999994" rpy="3.1415926535897887 5.3672300325485344e-17 3.141592653589793" />
             <geometry>
-                <mesh filename="/media/rahgirrafi/Technical/Github/ws_qurdo/src/quadro_description/urdf/meshes/actuator_rear_right.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="$(find quadro_description)/urdf/meshes/actuator_rear_right.stl" scale="0.001 0.001 0.001" />
             </geometry>
             
         </collision>
@@ -70,7 +70,7 @@
         <visual name="actuator_rear_left_visual">
             <origin xyz="3.552713678800501e-17 -1.7763568394002506e-16 0.24" rpy="3.1415926535897887 5.36723003254851e-17 3.141592653589793" />
             <geometry>
-                <mesh filename="/media/rahgirrafi/Technical/Github/ws_qurdo/src/quadro_description/urdf/meshes/actuator_rear_left.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="$(find quadro_description)/urdf/meshes/actuator_rear_left.stl" scale="0.001 0.001 0.001" />
             </geometry>
             <material name="black">
                 <color rgba="0.0 0.0 0.0 1.0" />
@@ -79,7 +79,7 @@
         <collision name="actuator_rear_left_collision">
             <origin xyz="3.552713678800501e-17 -1.7763568394002506e-16 0.24" rpy="3.1415926535897887 5.36723003254851e-17 3.141592653589793" />
             <geometry>
-                <mesh filename="/media/rahgirrafi/Technical/Github/ws_qurdo/src/quadro_description/urdf/meshes/actuator_rear_left.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="$(find quadro_description)/urdf/meshes/actuator_rear_left.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -92,7 +92,7 @@
         <visual name="actuator_front_right_visual">
             <origin xyz="0.0 7.105427357601002e-17 0.23999999999999985" rpy="3.141592653589793 -0.0 0.0" />
             <geometry>
-                <mesh filename="/media/rahgirrafi/Technical/Github/ws_qurdo/src/quadro_description/urdf/meshes/actuator_front_right.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="$(find quadro_description)/urdf/meshes/actuator_front_right.stl" scale="0.001 0.001 0.001" />
             </geometry>
             <material name="black">
                 <color rgba="0.0 0.0 0.0 1.0" />
@@ -101,7 +101,7 @@
         <collision name="actuator_front_right_collision">
             <origin xyz="0.0 7.105427357601002e-17 0.23999999999999985" rpy="3.141592653589793 -0.0 0.0" />
             <geometry>
-                <mesh filename="/media/rahgirrafi/Technical/Github/ws_qurdo/src/quadro_description/urdf/meshes/actuator_front_right.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="$(find quadro_description)/urdf/meshes/actuator_front_right.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -114,7 +114,7 @@
         <visual name="actuator_front_left_visual">
             <origin xyz="0.0 -7.105427357601002e-17 0.23999999999999985" rpy="3.141592653589793 -0.0 0.0" />
             <geometry>
-                <mesh filename="/media/rahgirrafi/Technical/Github/ws_qurdo/src/quadro_description/urdf/meshes/actuator_front_left.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="$(find quadro_description)/urdf/meshes/actuator_front_left.stl" scale="0.001 0.001 0.001" />
             </geometry>
             <material name="black">
                 <color rgba="0.0 0.0 0.0 1.0" />
@@ -123,7 +123,7 @@
         <collision name="actuator_front_left_collision">
             <origin xyz="0.0 -7.105427357601002e-17 0.23999999999999985" rpy="3.141592653589793 -0.0 0.0" />
             <geometry>
-                <mesh filename="/media/rahgirrafi/Technical/Github/ws_qurdo/src/quadro_description/urdf/meshes/actuator_front_left.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="$(find quadro_description)/urdf/meshes/actuator_front_left.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -138,7 +138,7 @@
         <visual name="upper-leg-1_visual">
             <origin xyz="-0.8515680735795619 0.5095601952053456 -0.30000000000000165" rpy="-4.225104217839752e-15 1.3947237586551614e-15 1.5707963267948966" />
             <geometry>
-                <mesh filename="/media/rahgirrafi/Technical/Github/ws_qurdo/src/quadro_description/urdf/meshes/upper-leg-1.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="$(find quadro_description)/urdf/meshes/upper-leg-1.stl" scale="0.001 0.001 0.001" />
             </geometry>
             <material name="yellow">
                 <color rgba="1.0 1.0 0.0 1.0" />
@@ -147,7 +147,7 @@
         <collision name="upper-leg-1_collision">
             <origin xyz="-0.8515680735795619 0.5095601952053456 -0.30000000000000165" rpy="-4.225104217839752e-15 1.3947237586551614e-15 1.5707963267948966" />
             <geometry>
-                <mesh filename="/media/rahgirrafi/Technical/Github/ws_qurdo/src/quadro_description/urdf/meshes/upper-leg-1.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="$(find quadro_description)/urdf/meshes/upper-leg-1.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -160,7 +160,7 @@
         <visual name="upper-leg-2_visual">
             <origin xyz="-0.517058214677661 0.2407886725118906 0.7308212118024103" rpy="-3.141592653589791 -6.2920377852306045e-15 2.617993877991495" />
             <geometry>
-                <mesh filename="/media/rahgirrafi/Technical/Github/ws_qurdo/src/quadro_description/urdf/meshes/upper-leg-2.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="$(find quadro_description)/urdf/meshes/upper-leg-2.stl" scale="0.001 0.001 0.001" />
             </geometry>
             <material name="yellow">
                 <color rgba="1.0 1.0 0.0 1.0" />
@@ -169,7 +169,7 @@
         <collision name="upper-leg-2_collision">
             <origin xyz="-0.517058214677661 0.2407886725118906 0.7308212118024103" rpy="-3.141592653589791 -6.2920377852306045e-15 2.617993877991495" />
             <geometry>
-                <mesh filename="/media/rahgirrafi/Technical/Github/ws_qurdo/src/quadro_description/urdf/meshes/upper-leg-2.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="$(find quadro_description)/urdf/meshes/upper-leg-2.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -182,7 +182,7 @@
         <visual name="upper-leg-3_visual">
             <origin xyz="0.5095601952053488 0.8515680735795635 -0.2999999999999954" rpy="4.67577335227251e-16 -2.6941296856217734e-15 -3.683442676833609e-15" />
             <geometry>
-                <mesh filename="/media/rahgirrafi/Technical/Github/ws_qurdo/src/quadro_description/urdf/meshes/upper-leg-3.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="$(find quadro_description)/urdf/meshes/upper-leg-3.stl" scale="0.001 0.001 0.001" />
             </geometry>
              <material name="yellow">
                 <color rgba="1.0 1.0 0.0 1.0" />
@@ -191,7 +191,7 @@
         <collision name="upper-leg-3_collision">
             <origin xyz="0.5095601952053488 0.8515680735795635 -0.2999999999999954" rpy="4.67577335227251e-16 -2.6941296856217734e-15 -3.683442676833609e-15" />
             <geometry>
-                <mesh filename="/media/rahgirrafi/Technical/Github/ws_qurdo/src/quadro_description/urdf/meshes/upper-leg-3.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="$(find quadro_description)/urdf/meshes/upper-leg-3.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -204,7 +204,7 @@
         <visual name="upper-leg-4_visual">
             <origin xyz="-0.43340211686914304 -0.8927386972519166 -0.29999999999999816" rpy="-1.9956054263512081e-16 2.024318169035165e-15 -3.0543261909900847" />
             <geometry>
-                <mesh filename="/media/rahgirrafi/Technical/Github/ws_qurdo/src/quadro_description/urdf/meshes/upper-leg-4.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="$(find quadro_description)/urdf/meshes/upper-leg-4.stl" scale="0.001 0.001 0.001" />
             </geometry>
              <material name="yellow">
                 <color rgba="1.0 1.0 0.0 1.0" />
@@ -213,7 +213,7 @@
         <collision name="upper-leg-4_collision">
             <origin xyz="-0.43340211686914304 -0.8927386972519166 -0.29999999999999816" rpy="-1.9956054263512081e-16 2.024318169035165e-15 -3.0543261909900847" />
             <geometry>
-                <mesh filename="/media/rahgirrafi/Technical/Github/ws_qurdo/src/quadro_description/urdf/meshes/upper-leg-4.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="$(find quadro_description)/urdf/meshes/upper-leg-4.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
